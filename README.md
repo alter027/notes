@@ -32,20 +32,9 @@
     - SAP (System Administration Practice)
 ----
 - ### 很多大大的筆記
-    - [楹神學習筆記XD](https://hackmd.io/s/BkfkApulZ)
     - [NCTU CS Course](https://hackmd.io/CYFgpgDArBEIwFpgDYBGwEgOyog1YqAnAgGZwDMIqATCAByr1RhA)
-    - [Opensource & MicroService](https://hackmd.io/CwDgDArAbARghsAtMAxhATMu6kgOwaIhQR4AmIZAnCMQGZA=)
 
 ----
 - 業餘
     - [Accompaniment Try](https://hackmd.io/KYMwjAxgRgzALMAtAdgCYQJyLgQwKxSIZ7ABMiqpyAHHnAGxikAMOyQA)
 
-----
-- 課餘
-    - [傲嬌CS](https://hackmd.io/s/HyNxjCO7-)
-        - [PF Liu](https://hackmd.io/MYMwbGBGCMAcIFoCcAWADAZgSjATLAhiEopAOwgCslaYGATGCgUA)
-        - CS50
-
-----
-- ### Floze(AL)
-    -  [Length Extension Attack](https://hackmd.io/GwMwDAjA7BCGIFoAcECsEEBZO0wgnBBIvgEYCmsU+SATPrZhEA==)
