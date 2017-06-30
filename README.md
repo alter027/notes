@@ -18,7 +18,6 @@
 
 ----
 - ### 2017 summer
-    - [overthewire-bandit](https://hackmd.io/EwBg7ALGCMDMsFoDGInARAHMTCCcemeCsArNKQKbgBGeAbAGZJA=)
     - [Django + C9](https://hackmd.io/JwFgjAbGDsAmBmBaArMkJEgAwQByIEMJoBmTAUyyoICYBjCZaGoA?edit)
 
 ----
