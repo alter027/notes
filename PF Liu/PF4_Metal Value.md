@@ -36,7 +36,7 @@ type 這個參數將會表明該金屬塊為哪種金屬。若是 79，代表是
 ```
 #### 注意事項
 請根據下列的 main () 函式為基礎，加上 value () 函式。
-```
+```C
 /* add your value() based on this code */
 #include <stdio.h>
 int main ()
