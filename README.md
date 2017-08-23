@@ -19,7 +19,7 @@
 ----
 - ### 2017 summer
     - [Django + C9](https://hackmd.io/JwFgjAbGDsAmBmBaArMkJEgAwQByIEMJoBmTAUyyoICYBjCZaGoA?edit)
-    - [library debate](https://hackmd.io/c/BJwRvnKuW/https%3A%2F%2Fhackmd.io%2FAwEwpgHARgxgnAQwLQCYBsc1ICwHY3BIJQDMKSArLgojKGBXLkA%3D)
+    - [library debate](https://hackmd.io/c/BJwRvnKuW/https%3A%2F%2Fhackmd.io%2FAwEwpgHARgxgnAQwLQCYBsc1ICwHY3BIJQDMKSArLgojKGBXLkA%3D)
 
 ----
 - ### third Semester
