@@ -37,3 +37,4 @@
 ----
 - 業餘
     - [Accompaniment Try](https://hackmd.io/KYMwjAxgRgzALMAtAdgCYQJyLgQwKxSIZ7ABMiqpyAHHnAGxikAMOyQA)
+    - [notes way](https://hackmd.io/c/SJMFAaH0W/https%3A%2F%2Fhackmd.io%2FEwZgDAjApgnGUFoCsSBmBjBAWCwDsCAhloQQBxJboBGZ1wUkeQA%3D)
