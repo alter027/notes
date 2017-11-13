@@ -12,13 +12,13 @@ pip install --upgrade pip
 pip install python3-xlib  
 pip install pyautogui
 pip install send2trash  
-# pip install requests  
-# pip install lxml  
+pip install requests  
+pip install lxml  
 pip install selenium  
-# pip install openpyxl  
+pip install openpyxl  
 pip install PyPDF2  
 pip install imapclient  
 pip install twilio  
-# pip install pillow  
+pip install pillow  
 pip install mss  
-# pip install beautisoup4  
+pip install beautisoup4  
