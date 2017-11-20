@@ -26,6 +26,9 @@ zpool list
 zfs list
 zfs snapshot zroot/ftp@171114
 zfs list -t snapshot
+# 開機後自動掛載
+echo "zfs mount -vO -a" >> /etc/rc.local
+zfs get mounted
 
 # samba
 vim smb.conf 
