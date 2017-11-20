@@ -1,0 +1,224 @@
+    1  ping www.google.com.tw
+    2  sudo apt install vim
+    3  sudo apt-get install vim
+    4  ps
+    5  sudo apt-get install vim
+    6  printf 'y' | sudo apt-get install vim
+    7  git clone "https://github.com/alter027/notes/blob/mastershell/insana.sh"
+    8  printf 'y' | sudo apt-get install git
+    9  git clone "https://github.com/alter027/notes/blob/mastershell/insana.sh"
+   10  git clone "https://github.com/alter027/notes/blob/master/shell/insana.sh"
+   11  git clone "https://github.com/alter027/notes/blob/master/shell"
+   12  git clone "https://github.com/alter027/notes"
+   13  ls
+   14  cd notes
+   15  ls
+   16  cd shell
+   17  ls
+   18  ls -l
+   19  ls -la
+   20  cp .vimrc ~/
+   21  vim .vimrc 
+   22  vim insana.sh
+   23  head -n 5 insana.sh 
+   24  head -n 5 insana.sh > dic.sh
+   25  vim dic.sh 
+   26  chmod _x dic.sh 
+   27  chmod +x dic.sh 
+   28  ./dic.sh 
+   29  vim dic.sh 
+   30  printf 'y\n\n^Cyes\nyes\n' | ./dic.sh
+   31  vim dic.sh 
+   32  sudo apt-get install curl
+   33  printf 'y\n\n^Cyes\nyes\n' | ./dic.sh
+   34  ./dic.sh
+   35  printf '\n^Cyes\nyes\n' | ./dic.sh
+   36  printf '\n^C\nyes\nyes\n' | ./dic.sh
+   37  ./dic.sh
+   38  printf '\n^C\nyes\nyes\n' | ./dic.sh
+   39  printf '\n\n\n\n\nyes\nyes\n' | ./dic.sh
+   40  ./dic.sh
+   41  clear
+   42  cd ~/Desktop
+   43  ls
+   44  touch ita2.1.cpp
+   45  vim ita2.1.cpp
+   46  vim dic.sh 
+   47  ls
+   48  cd /note/shell/dic.sh
+   49  cd ~/note/shell/dic.sh
+   50  vim ~/note/shell/dic.sh
+   51  vim ~/note/shell/
+   52  cd ~/notes/shell
+   53  vim ~/note/shell/dic.sh
+   54  vim ~/notes/shell/dic.sh
+   55  cd ~/notes/shell
+   56  ls
+   57  sudo apt-get install samba
+   58  sudo apt-get install zfs
+   59  sudo apt-get install openssl
+   60  sudo apt-get install pure-ftpd
+   61  cd /etc/pure-ftpd/conf/
+   62  ls
+   63  touch TLS
+   64  sudo touch TLS
+   65  echo 2 > TLS
+   66  sudo echo 2 > TLS
+   67  vim TLS
+   68  sudo su
+   69  su ftp
+   70  mkdir ftp
+   71  ls
+   72  rmdir ftp
+   73  ls
+   74  cd ..
+   75  ls
+   76  mkdir ftp
+   77  sudo mkdir ftp
+   78  ls -l
+   79  chmod 777 ftp
+   80  sudo chmod 777 ftp
+   81  sudo su
+   82  df
+   83  fdisk -l
+   84  sudo su
+   85  cd /etc/samba
+   86  ls
+   87  vim smb.conf
+   88  sudo su
+   89  ;s
+   90  ls
+   91  cd /home/ftp
+   92  ls
+   93  vim /etc/samba
+   94  cd /etc/samba
+   95  ls
+   96  vim smb.conf
+   97  sudo su
+   98  history
+   99  sudo su
+  100  cd /home/fpt
+  101  cd /home/ftp
+  102  ls
+  103  df
+  104  zpool status
+  105  sudo su
+  106  /etc/init.d/pure.ftpd start
+  107  /etc/init.d/pure-ftpd start
+  108  ifcongif
+  109  ifconfig
+  110  /etc/init.d/samba start
+  111  vim /etc/samba/smb.conf
+  112  cd /home/ftp
+  113  ls
+  114  mkdir upload
+  115  mkdir mkdir upload
+  116  sudo mkdir upload
+  117  cd /uploac
+  118  cd /upload
+  119  cd upload
+  120  ls
+  121  touch pop.c
+  122  sudo su
+  123  cd ~/
+  124  ls
+  125  mv vimrc .vimrc
+  126  ls
+  127  cd /home/ftp
+  128  ls
+  129  vim play.c 
+  130  mkdir download
+  131  sudo mkdir download
+  132  sudo mkdir -p hidden/treasure
+  133  ls
+  134  chmod 775 upload
+  135  sudo chmod 775 upload
+  136  /etc/init.d/pure-ftpd start
+  137  /etc/init.d/pure-ftpd restart
+  138  sudo chmod 773 upload
+  139  sudo chmod 776 upload
+  140  /etc/init.d/pure-ftpd restart
+  141  sudo chmod 773 upload
+  142  /etc/init.d/pure-ftpd restart
+  143  ls
+  144  cd upload/
+  145  ls
+  146  sudo ls
+  147  cd ..
+  148  sudo chmod 775 download
+  149  sudo chmod 771 hidden
+  150  /etc/init.d/pure-ftpd restart
+  151  sudo ls
+  152  sudo chmod 774 hidden
+  153  /etc/init.d/pure-ftpd restart
+  154  sudo chmod 770 hidden
+  155  /etc/init.d/pure-ftpd restart
+  156  sudo chmod 777 hidden
+  157  sudo chmod 770 hidden
+  158  ls -l
+  159  ls
+  160  cd /hidden
+  161  ls
+  162  cd treasure
+  163  ls
+  164  cd ..
+  165  sudo chmod 774 hidden
+  166  cd ..
+  167  sudo chmod 774 hidden
+  168  pwd
+  169  cd /home/ftp
+  170  ls
+  171  sudo chmod 774 hidden
+  172  cd hidden
+  173  cd hidden/treasure
+  174  sudo chmod 777 hidden/treasure
+  175  cd hidden/treasure
+  176  sudo chmod 777 hidden
+  177  cd hidden
+  178  cd ..
+  179  cd hidden
+  180  cd ..
+  181  sudo chmod 774 hidden
+  182  cd hidden
+  183  sudo chmod 777 hidden/treasure
+  184  cd hidden/treasure
+  185  sudo su
+  186  ls
+  187  cd hidden
+  188  ls
+  189  cd treasure
+  190  ls
+  191  cd /home/ftp/upload
+  192  ls
+  193  sudo ls
+  194  cd ..
+  195  ls -l
+  196  sudo chmod 7776 upload
+  197  ls -l
+  198  sudo chmod 7767 upload
+  199  ls -l
+  200  sudo chmod 776 upload
+  201  ls -l
+  202  sudo chmod 773 upload
+  203  sudo chown ftpgroup
+  204  chown --help
+  205  sudo chown -c ftpgroup
+  206  chown --help
+  207  /etc/init.d/pure-ftpd start
+  208  /etc/init.d/pure-ftpd 43start
+  209  /etc/init.d/pure-ftpd restart
+  210  ping www.google.com
+  211  /etc/init.d/pure-ftpd restart
+  212  ifconfig
+  213  cd ..
+  214  ls
+  215  sudo su
+  216  cd /home/ftp
+  217  ls
+  218  cd hidden
+  219  sudo su
+  220  history > his4.txt
+  221* 
+  222  chmod 777 /home/ftp
+  223  sudo chmod 777 /home/ftp
+  224  history > his4.txt

@@ -1,0 +1,590 @@
+    1  echo 2 > /etc/pure-ftpd/conf/TLS
+    2  mkdif -p /etc/ssl/private
+    3  mkdir -p /etc/ssl/private/
+    4  openssl req -x509 -nodes -days 7300 -newkey rsa:2048 -keyout /etc/ssl/private/pure-ftpd.pem -out /etc/ssl/private/pure-ftpd.pem
+    5  chmod 600 /etc/ssl/private/pure-ftpd.pem
+    6  /etc/init.d/pure-ftpd-mysql start
+    7  /etc/init.d/pure-ftpd start
+    8  ifconfig
+    9  vim /etc/pure-ftpd//conf/TLS
+   10  vim /etc/pure-ftpd//conf/TLSCipherSuite 
+   11  vim /etc/pure-ftpd/conf/TLS
+   12  cd /etc/pure-ftpd/conf
+   13  ls
+   14  vim NoAnonymous 
+   15  /etc/init.d/pure-ftpd start
+   16  cd /etc/ssl/private
+   17  ls
+   18  cd /etc/init.d/
+   19  ks
+   20  ls
+   21  cd /etc/pure-ftpd/conf
+   22  ls
+   23  vim PureDB 
+   24  cd AltLog 
+   25  vim AltLog 
+   26  vim PAMAuthentication 
+   27  puse-pw mkdb
+   28  pure-pw mkdb
+   29  mkdb
+   30  useradd ftp -g ftpgroup -s /bin/false -d /home/ftp
+   31  groupadd ftpgroup
+   32  useradd ftp -g ftpgroup -s /bin/false -d /home/ftp
+   33  /etc/init.d/pure-ftpd start
+   34  /etc/init.d/pure-ftpd restart
+   35  mkdir /home/ftp
+   36  touch /home/ftp/ttl.cpp
+   37  useradd ftpuser -g ftpgroup -s /bin/false -d /home/ftp
+   38  pure-pw useradd ftp-tri -u ftpuser -d /home/ftp
+   39  pure-pw mkdb
+   40  ln -s /etc/pure-ftpd/conf/PureDB 60puredb
+   41  /etc/init.d/pure-ftpd restart
+   42  cd /etc/pure-ftpd/pureftpd.pdb 
+   43  vim /etc/pure-ftpd/pureftpd.pdb 
+   44  vim /etc/passwd
+   45  vim /etc/pure-ftpd/conf/MinUID 
+   46  /etc/init.d/pure-ftpd restart
+   47  vim /etc/pure-ftpd/conf/MinUID 
+   48  vim /etc/passwd
+   49  cd /home
+   50  ls -l
+   51  rm ftp
+   52  rmdir ftp
+   53  cd ftp
+   54  ls
+   55  rm ttl.cpp 
+   56  cd ..
+   57  rm ttl.cpp 
+   58  rmdir ftp
+   59  ls
+   60  exit
+   61  vim /etc/passwd
+   62  pure-pw userdel ftp-tri
+   63  cd /etc/pure-ftpd/
+   64  ls
+   65  vim pureftpd.passwd 
+   66  pure-pw useradd ftp-tri -u ftpuser -g ftpgroup-d /home/ftp
+   67  useradd fu1 -g ftpgroup -s /bin/false -d /home/ftp
+   68  pure-pw useradd ftp-tri -u fu1 -g ftpgroup -d /home/ftp
+   69  pure-pw useradd ftp-tri -u ftpuser -g ftpgroup -d /home/ftp
+   70  pure-pw mkdb
+   71  /etc/init.d/pure-ftpd restart
+   72  ls
+   73  cd auth
+   74  ls
+   75  cd ..
+   76  ln -s /etc/pure-ftpd/conf/PureDB /etc/pure-ftpd/auth/60puredb
+   77  pure-pw mkdb
+   78  /etc/init.d/pure-ftpd restart
+   79  userdel fu1
+   80  touch /home/ftp/tll.cpp
+   81  mkdir -p /home/ftp/hidden/treasure
+   82  pure-pw useradd ftp-vip -u ftpuser -g ftpgroup -d /home/ftp
+   83  pure-pw mkdb
+   84  /etc/init.d/pure-ftpd restart
+   85  cd /etc/samba
+   86  ls
+   87  vim smb.conf 
+   88  service smbd start
+   89  config
+   90  ifconfig
+   91  fdisk -l
+   92  zpool create zroot /dev/sdb
+   93  zpool create zroot /dev/sdb -f
+   94  cd /zroot
+   95  ls
+   96  cd ..
+   97  ls
+   98  zfs create -o canmount=noauto -o mountpoint=/home/ftp zroot/ftp
+   99  zpool status
+  100  df
+  101  zfs create -o canmount=noauto -o mountpoint=/home/ftp zftp
+  102  zfs create -o canmount=noauto -o mountpoint=/home/ftp zroot/ftp
+  103  zfs mount zroot/ftp
+  104  cd /ftp
+  105  cd /home/ftp
+  106  ls
+  107  rm tll.cpp
+  108  cd hidden/
+  109  rmdir treasure/
+  110  cd ..
+  111  rmdir hidden/
+  112  cd ..
+  113  zfs mount zroot/ftp
+  114  df
+  115  zpool list
+  116  cd /home/ftp
+  117  touch tll.cpp
+  118  zpool list
+  119  ls
+  120  mkdif -p hidden/treasure
+  121  mkdir -p hidden/treasure
+  122  zpool list
+  123  df
+  124  zfs list
+  125  zfs snapshot zroot/ftp@171114
+  126  zfs list -t snapshot
+  127  vim /etc/passwd
+  128  zfs list
+  129  ping www.google.com
+  130  vim /etc/
+  131  cd /etc/
+  132  history
+  133  history > /home/ftp/his1711150348.txt
+  134  ls
+  135  cd samba/
+  136  ls
+  137  vim smb.conf 
+  138  vim smb.conf | grep security
+  139  cd /etc/samba/
+  140  vim smb.conf grep security
+  141  sudo /etc/init.d/samba restart
+  142  ifconfig
+  143  vim smb.conf
+  144  sudo /etc/init.d/samba restart
+  145  vim smb.conf
+  146  sudo /etc/init.d/samba restart
+  147  vim smb.conf
+  148  sudo /etc/init.d/samba restart
+  149  vim /etc/passwd
+  150  ls /etc/
+  151  vim /etc/group
+  152  sudo /etc/init.d/samba restart
+  153  ifconfig
+  154  smbpasswd -a ftp
+  155  sudo /etc/init.d/samba restart
+  156  /etc/init.d/samba restart
+  157  ls
+  158  vim smb.conf 
+  159  /etc/init.d/samba restart
+  160  vim smb.conf 
+  161  /etc/init.d/samba restart
+  162  ifconfig
+  163  vim smb.conf 
+  164  /etc/init.d/samba restart
+  165  vim smb.conf 
+  166  /etc/init.d/samba restart
+  167  vim smb.conf 
+  168  /etc/init.d/samba restart
+  169  vim smb.conf 
+  170  /etc/init.d/samba restart
+  171  vim smb.conf 
+  172  /etc/init.d/samba restart
+  173  vim smb.conf 
+  174  /etc/init.d/samba restart
+  175  vim smb.conf 
+  176  /etc/init.d/samba restart
+  177  vim smb.conf 
+  178  /etc/init.d/samba restart
+  179  vim smb.conf 
+  180  /etc/init.d/samba restart
+  181  vim smb.conf 
+  182  /etc/init.d/samba restart
+  183  vim smb.conf 
+  184  /etc/init.d/samba restart
+  185  vim smb.conf 
+  186  /etc/init.d/samba restart
+  187  vim smb.conf 
+  188  /etc/init.d/samba restart
+  189  vim smb.conf 
+  190  /etc/init.d/samba restart
+  191  vim smb.conf 
+  192  /etc/init.d/samba restart
+  193  vim smb.conf 
+  194  /etc/init.d/samba restart
+  195  vim smb.conf 
+  196  /etc/init.d/samba stop
+  197  /etc/init.d/samba start
+  198  vim smb.conf 
+  199  /etc/init.d/samba start
+  200  vim smb.conf 
+  201  /etc/init.d/samba start
+  202  vim smb.conf 
+  203  /etc/init.d/samba start
+  204  vim smb.conf 
+  205  /etc/init.d/samba start
+  206  vim smb.conf 
+  207  /etc/init.d/samba start
+  208  vim smb.conf 
+  209  smbclient -L
+  210  /etc/init.d/samba stop
+  211  apt-get remove samba
+  212  ls
+  213  vim smb.conf 
+  214  cd ..
+  215  rmdir samba
+  216  rmdir -rf samba
+  217  rmdir --help
+  218  rmdir --ignore-fail-on-non-empty samba
+  219  ls
+  220  ls samba/
+  221  ls
+  222  rmdir --ignore-fail-on-non-empty samba
+  223  cd samba/
+  224  ls
+  225  apt-get remve samba
+  226  apt-get remove samba
+  227  apt-get install samba
+  228  ls
+  229  vim smb.conf 
+  230  mv smb.conf smb.conf.example
+  231  touch smb.cong
+  232  rm smb.cong
+  233  touch smb.conf
+  234  vim smb.conf
+  235  cp smb.conf.example smb.conf
+  236  vim smb.conf
+  237  /etc/init.d/samba start
+  238  vim smb.conf
+  239  /etc/init.d/samba start
+  240  vim smb.conf
+  241  /etc/init.d/samba start
+  242  vim smb.conf
+  243  /etc/init.d/samba start
+  244  vim smb.conf
+  245  /etc/init.d/samba restart
+  246  vim smb.conf
+  247  /etc/init.d/samba restart
+  248  vim smb.conf
+  249  /etc/init.d/samba restart
+  250  vim smb.conf
+  251  /etc/init.d/samba restart
+  252  vim smb.conf.example 
+  253  vim smb.conf
+  254  ifconfig
+  255  vim smb.conf
+  256  /etc/init.d/samba restart
+  257  vim smb.conf
+  258  /etc/init.d/samba restart
+  259  vim smb.conf
+  260  /etc/init.d/samba restart
+  261  vim smb.conf
+  262  /etc/init.d/samba restart
+  263  vim smb.conf
+  264  /etc/init.d/samba restart
+  265  vim smb.conf
+  266  /etc/init.d/samba restart
+  267  vim smb.conf
+  268  /etc/init.d/samba restart
+  269  vim smb.conf
+  270  /etc/init.d/samba restart
+  271  vim smb.conf
+  272  /etc/init.d/samba restart
+  273  vim smb.conf
+  274  /etc/init.d/samba restart
+  275  finger
+  276  apt install finger
+  277  finger
+  278  useradd -m ftp-vip -g ftpgroup
+  279  passwd ftp-vip
+  280  pure-ftpd
+  281  cd /home
+  282  ls
+  283  useradd -m sysadm -g ftpgroup
+  284  passwd sysadm
+  285  useradd -m Samba -g ftpgroup
+  286  passwd Samba
+  287  useradd -m Anonymous
+  288  passwd Anonymous
+  289  finger
+  290  smbpasswd Samba
+  291  smbpasswd -a Samba
+  292  smbpasswd -a sysadm
+  293  smbpasswd -a ftp-vip
+  294  smbpasswd -a Anonymous
+  295  smbpasswd -a ttl
+  296  vim /etc/samba/smb.conf
+  297  /etc/init.d/samba restart
+  298  chmod 777 /home/ftp
+  299  /etc/init.d/samba restart
+  300  vim /etc/samba/smb.conf
+  301  /etc/init.d/samba restart
+  302  vim /etc/samba/smb.conf
+  303  /etc/init.d/samba restart
+  304  vim /etc/samba/smb.conf
+  305  /etc/init.d/samba restart
+  306  vim /etc/samba/smb.conf
+  307  /etc/init.d/samba restart
+  308  vim /etc/samba/smb.conf
+  309  /etc/init.d/samba restart
+  310  vim /etc/samba/smb.conf
+  311  /etc/init.d/samba restart
+  312  vim /etc/samba/smb.conf
+  313  /etc/init.d/samba restart
+  314  vim /etc/samba/smb.conf
+  315  /etc/init.d/samba restart
+  316  vim /etc/samba/smb.conf
+  317  /etc/init.d/samba restart
+  318  vim /etc/samba/smb.conf
+  319  /etc/init.d/samba restart
+  320  vim /etc/samba/smb.conf
+  321  ifconfig
+  322  vim /etc/samba/smb.conf
+  323  ifconfig
+  324  /etc/init.d/samba restart
+  325  ifconfig
+  326  vim /etc/samba/smb.conf
+  327  ssh
+  328  ssh start
+  329  apt install openssh
+  330  apt install yum
+  331  yum install -y openssh-server openssh-clients
+  332  apt install openssh-server
+  333  apt install openssh-clients
+  334  apt-get install openssh-clients
+  335  vim /etc/ssh/sshd_config
+  336  /etc/init.d/sshd start
+  337  /etc/init.d/
+  338  cd /etc/init.d/
+  339  ls
+  340  /etc/init.d/ssh start
+  341  /etc/init.d/pure-ftpd start
+  342  /etc/init.d/pure-ftpd restart
+  343  mkdb
+  344  purewd mkdb
+  345  pure-pw mkdb
+  346  /etc/init.d/pure-ftpd restart
+  347  cd /home
+  348  ls
+  349  /etc/init.d/pure-ftpd restart
+  350  vim /etc/passwd
+  351  passwd sysadm
+  352  pure-pw mkdb
+  353  /etc/init.d/pure-ftpd restart
+  354  passwd sysadm
+  355  ls
+  356  cd /sysadm
+  357  cd sysadm/
+  358  ls
+  359  history
+  360  history > his1711152048
+  361  vim his1711152048 
+  362  vim /etc/skel
+  363  pure-pw mkdb
+  364  /etc/init.d/pure-ftpd restart
+  365  /etc/init.d/pure-ftpd start
+  366  /etc/init.d/pure-ftpd restart
+  367  touch home/ftp/sersar.sh
+  368  touch /home/ftp/sersar.sh
+  369  vim /home/ftp/sersar.sh
+  370  cd /home/ftp
+  371  ls
+  372  ./sersar.sh
+  373  chmod +x sersar.sh 
+  374  ./sersar.sh
+  375  vim /home/ftp/sersar.sh
+  376  reboot
+  377  cd /home/ftp
+  378  ls
+  379  history
+  380  :q
+  381  exit
+  382  history
+  383  cd /home/ftp
+  384  ls
+  385  mkdir upload
+  386  rm upload
+  387  mkdir upload
+  388  mkdir download
+  389  mkdir -p /hidden/treasure
+  390  ls
+  391  mkdir -p /home/ftp/hidden/treasure
+  392  samba start
+  393  /etc/init.d/samba start
+  394  ifconfig
+  395  vim /etc/samba/smb.conf
+  396  /etc/init.d/samba start
+  397  /etc/init.d/samba restart
+  398  cd /home/ftp
+  399  ls
+  400  vim /etc/samba/smb.conf
+  401  /etc/init.d/samba restart
+  402  vim /etc/samba/smb.conf
+  403  ping www.google.com
+  404  vim /etc/samba/smb.conf
+  405  /etc/init.d/samba restart
+  406  ifconfig
+  407  vim /etc/samba/smb.conf
+  408  /etc/init.d/pure-ftpd restart
+  409  pure-ftpd start
+  410  /etc/init.d/pure-ftpd start
+  411  pure-ftpd start
+  412  cd /etc/ssl/private/
+  413  pure-pw mkdb
+  414  /etc/init.d/pure-ftpd restart
+  415  ifconfig
+  416  cd /etc/pure-ftpd/conf
+  417  ls
+  418  vim TLS
+  419  cd /home/ftp
+  420  ls
+  421  df
+  422  zpool export
+  423  zpool export zroot
+  424  df
+  425  disk -list
+  426  fdisk -l
+  427  df
+  428  zpool create zroot /dev/sdb -f
+  429  zfs create -o canmount=noauto -o mountpoint=/home/ftp zroot/ftp
+  430  df
+  431  mount zroot/ftp /home/ftp
+  432  zfs create -o canmount=noauto -o mountpoint=/home/ftp zroot/ftp
+  433  mount /home/ftp zroot/ftp
+  434  mount /home/ftp /zroot/ftp
+  435  zfs mount zroot/ftp
+  436  cd /home/ftp
+  437  ls
+  438  rmdir download/
+  439  rmdir hidden/
+  440  rmdir upload
+  441  rm tll.cpp 
+  442  cd hidden/
+  443  ls
+  444  rmdir treasure/
+  445  cd ..
+  446  rmdir hidden/
+  447  zfs mount zroot/ftp
+  448  df
+  449  fdisk -l
+  450  zpool list
+  451  zfs get mounted
+  452  touch play.txt
+  453  touch clay.c
+  454  ls
+  455  reboot
+  456  zpool import storage
+  457  zpool import zroot
+  458  df
+  459  zpool import zroot/ftp
+  460  zfs mount -a
+  461  df
+  462  zfs get mounted
+  463  df
+  464  zfs get mountpoint storage
+  465  zfs get mountpoint zroot/ftp
+  466  zfs start
+  467  zfs start zroot/ftp
+  468  zfs allow
+  469  zfs mount -vO -a
+  470  df
+  471  zfs get mountpoint zroot/ftp
+  472  zfs get mounted
+  473  zfs mount -a
+  474  df
+  475  zfs get all zroot
+  476  vim /etc/default/zfs
+  477  zpool import zroot/ftp
+  478  zpool status
+  479  zpool import zroot
+  480  zpool import zroot/ftp
+  481  apt-get remove zfs.doc
+  482  apt-get install zfsutils-linux
+  483  zpool status
+  484  zpool import zroot/ftp
+  485  zfs mount -a
+  486  df
+  487  zfs get mounted
+  488  zfs mount -vO -a
+  489  df
+  490  zfs mount zroot/ftp
+  491  cd /home/ftp
+  492  ls
+  493  df
+  494  zfs get mounted
+  495  zpool status
+  496  zfs get mountpoint zroot/ftp
+  497  zfs get -s local all pool
+  498  zfs get -s local all zroot
+  499  df
+  500  zfs get -s local all zroot/ftp
+  501  zpool destory -f zroot/ftp
+  502  zpool destroy -f zroot/ftp
+  503  zpool destroy -f zroot
+  504  fdisk -l
+  505  ls
+  506  rm clay.c play.txt 
+  507  zpool create zroot /dev/sdv -f
+  508  zpool create zroot /dev/sdb -f
+  509  zfs create -o canmount=auto -o mountpoint=/home/ftp zroot/ftp
+  510  zfs create -o canmount=on -o mountpoint=/home/ftp zroot/ftp
+  511  zfs mount zroot/ftp
+  512  df
+  513  touch play.txt
+  514  ls
+  515  reboot
+  516  zpool status
+  517  apt-get remove zfsutils-linux
+  518  apt-get remove zfs.doc
+  519  apt-get remove zfs
+  520  df
+  521  apt-get install zfsutils-linux
+  522  df
+  523  zfs get mounted
+  524  zpool destroy -f zroot
+  525  df
+  526  zpool status
+  527  zpool create zroot /dev/sdb -f
+  528  zfs create -o canmount=on -o mountpoint=/home/ftp zroot/ftp
+  529  ls
+  530  rm play.txt 
+  531  zfs create -o canmount=on -o mountpoint=/home/ftp zroot/ftp
+  532  df
+  533  zfs mount zroot/ftp
+  534  df
+  535  zpool status
+  536  zfs get mounted
+  537  vim /etc/rc.local
+  538  reboot
+  539  zfs get mounted
+  540  zpool status
+  541  df
+  542  cd /home/ftp
+  543  ls
+  544  touch play.c
+  545  touch clay.txt
+  546  reboot
+  547  zfs get mounted
+  548  cd /home/ftp
+  549  ls
+  550  zpool status
+  551  df
+  552  zfs list
+  553  zfs snapshot zroot/ftp@171116
+  554  touch kkl.cpp
+  555  ls
+  556  zfs rollback zroot/ftp@171116
+  557  ls
+  558  touch pop.c
+  559  touch clean.txt
+  560  /etc/init.d/samba restart
+  561  cd ..
+  562  chmod /home/ftp/upload
+  563  chmod +x /home/ftp/upload
+  564  /etc/init.d/samba restart
+  565  chmod 777 /home/ftp/upload
+  566  chmod 775 /home/ftp/upload
+  567  chmod 770 /home/ftp/upload
+  568  ls
+  569  vim play.c 
+  570  git clone "https://github.com/alter027/FNM"
+  571  ls
+  572  cd FNM
+  573  ls
+  574  mv vimrc ~/
+  575  cd ~/
+  576  ls
+  577  mv vimrc /home/alter027
+  578  ls
+  579  exit
+  580  ls
+  581  cd /hidden/treasure
+  582  ls
+  583  chmod 777 hidden/treasure
+  584  chmod 777 /home/ftp/hidden/treasure
+  585  touch kk.cpp
+  586  touch i_do_that.txt
+  587  chmod 776 /home/ftp/hidden/
+  588  chmod 777 /home/ftp/hidden/treasure
+  589  chmod 773 /home/ftp/hidden/
+  590  exit

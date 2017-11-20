@@ -1,0 +1,345 @@
+    1  ls
+    2  cd Desktop
+    3  touch hw7_1.c
+    4  touch hw7_2.c
+    5  vim hw7_2.c
+    6  date 1711131248
+    7  date 171113
+    8  exit
+    9  sudo apt-get install samba
+   10  sudo apt-get install vim
+   11  cd /etc/samba
+   12  ls
+   13  samba -v
+   14  samba -V
+   15  sudo apt-get install zfs
+   16  vim /etc/samba/smb.conf
+   17  cd /Desktop
+   18  cd /usr/alter027/Desktop
+   19  cd /
+   20  ls
+   21  cd usr
+   22  ls
+   23  cd ..
+   24  cd /home
+   25  ls
+   26  cd alter027/Desktop
+   27  vim hw7_2.c
+   28  cd
+   29  ls
+   30  touch .vimrc
+   31  ls -l
+   32  ls -a
+   33  vim .vimrc
+   34  vim /Desktop/hw7_2.c
+   35  cd Desktop/
+   36  ls
+   37  vim hw7_2.c
+   38  vim /.vimrc
+   39  vim ~/.vimrc
+   40  vim hw7_2.c
+   41  vim ~/.vimrc
+   42  vim hw7_2.c
+   43  vim ~/.vimrc
+   44  vim hw7_2.c
+   45  vim ~/.vimrc
+   46  vim hw7_2.c
+   47  vim ~/.vimrc
+   48  vim hw7_2.c
+   49  vim ~/.vimrc
+   50  vim hw7_2.c
+   51  vim ~/.vimrc
+   52  vim hw7_2.c
+   53  vim ~/.vimrc
+   54  vim hw7_2.c
+   55  mv hw7_2.c hw7_2.cpp
+   56  ls
+   57  g++ hw7_2.cpp
+   58  vim hw7_2.cpp 
+   59  sudo apt-get install g++
+   60  sudo apt-get install gcc
+   61  vim hw7_2.cpp 
+   62  g++ hw7_2.cpp
+   63  vim hw7_2.cpp 
+   64  g++ hw7_2.cpp
+   65  vim hw7_2.cpp 
+   66  g++ hw7_2.cpp
+   67  vim hw7_2.cpp 
+   68  g++ hw7_2.cpp
+   69  vim hw7_2.cpp 
+   70  g++ hw7_2.cpp
+   71  vim hw7_2.cpp 
+   72  g++ hw7_2.cpp
+   73  vim hw7_2.cpp 
+   74  g++ hw7_2.cpp
+   75  ./a.out
+   76  vim hw7_2.cpp 
+   77  g++ hw7_2.cpp
+   78  touch hw7.txt
+   79  vim hw7.txt
+   80  touch hw712.txt
+   81  vim hw712.txt
+   82  ./a.out < hw7.txt
+   83  vim hw712.txt
+   84  vim hw7_2.cpp 
+   85  g++ hw7_2.cpp 
+   86  ./a.out < hw7.txt
+   87  vim hw7_2.cpp 
+   88  g++ hw7_2.cpp 
+   89  ./a.out < hw7.txt
+   90  vim hw7_2.cpp 
+   91  g++ hw7_2.cpp 
+   92  vim hw7_2.cpp 
+   93  ./a.out < hw7.txt
+   94  vim hw7_2.cpp 
+   95  g++ hw7_2.cpp 
+   96  ./a.out < hw7.txt
+   97  vim hw7_2.cpp 
+   98  g++ hw7_2.cpp 
+   99  vim hw7_2.cpp 
+  100  g++ hw7_2.cpp 
+  101  ./a.out < hw7.txt
+  102  vim hw7_2.cpp 
+  103  g++ hw7_2.cpp 
+  104  ./a.out < hw7.txt
+  105  vim hw7_2.cpp 
+  106  g++ hw7_2.cpp 
+  107  ./a.out < hw7.txt
+  108  vim hw7_2.cpp 
+  109  g++ hw7_2.cpp 
+  110  vim hw7_2.cpp 
+  111  g++ hw7_2.cpp 
+  112  ./a.out < hw7.txt
+  113  mv hw7_1.c hw7_1.cpp
+  114  vim hw7_1.cpp 
+  115  vim ~/.vim.rc
+  116  history
+  117  vim ~/.vimrc
+  118  vim hw7_1.cpp 
+  119  vim ~/.vimrc
+  120  vim hw7_1.cpp 
+  121  vim ~/.vimrc
+  122  vim hw7_1.cpp 
+  123  g++ hw7_1.cpp 
+  124  vim hw7_1.cpp 
+  125  g++ hw7_1.cpp 
+  126  touch hw71.txt
+  127  vim hw71.txt
+  128  vim hw712.txt
+  129  ./a.out < hw71.txt
+  130  vim hw7_1.cpp 
+  131  g++ hw7_1.cpp 
+  132  ./a.out < hw71.txt
+  133  vim hw7_1.cpp 
+  134  g++ hw7_1.cpp 
+  135  ./a.out < hw71.txt
+  136  vim hw7_1.cpp 
+  137  g++ hw7_1.cpp 
+  138  ./a.out < hw71.txt
+  139  ./a.out < hw712.txt
+  140  touch hw713.txt
+  141  vim hw713.txt
+  142  ./a.out < hw713.txt
+  143  vim hw713.txt
+  144  vim hw7_1.cpp 
+  145  vim hw714.txt
+  146  ./a.out < hw714.txt
+  147  vim hw714.txt
+  148  vim hw7_1.cpp 
+  149  g++ hw7_1.cpp 
+  150  ./a.out < hw714.txt
+  151  vim hw7_1.cpp 
+  152  vim hw7_2.cpp 
+  153  cd /
+  154  ls
+  155  cd /etc
+  156  ls
+  157  cd samba/
+  158  ls
+  159  vim smb.conf 
+  160  vim ~/.vimrc
+  161  vim smb.conf 
+  162  sudo adduser smbuser --shell /bin/false
+  163  sudo smbpasswd -a smbuser
+  164  vim smb.conf 
+  165  su -
+  166  vim smb.conf 
+  167  chown 777 smb.conf
+  168  chowd 777 smb.conf
+  169  sudo vim smb.conf
+  170  cd /home/smbuser
+  171  ls
+  172  sudo service smbd restart
+  173  sudo service smbd start
+  174  ifconfig
+  175  ping www.google.com
+  176  ping www.google.com.tw
+  177  curl google.com.tw
+  178  sudo apt install curl
+  179  curl google.com.tw
+  180  ping www.google.com.tw
+  181  ifconfig
+  182  sudo apt-get install pure-ftpd
+  183  cd /etc/pure-ftpd/conf
+  184  ls
+  185  sudo /etc/init.d/pure-ftpd restart
+  186  ifconfig
+  187  cd /etc/pure-ftpd/conf
+  188  ls
+  189  vim NoAnonymous 
+  190  ls
+  191  cd /etc/pure-ftpc/conf
+  192  cd /etc/pure-ftpd/conf
+  193  ls
+  194  cd /usr/local/pureftpd
+  195  cd /usr/local/pure-ftpd
+  196  cd /usr/local
+  197  ls
+  198  cd etc
+  199  ls
+  200  cd /etc
+  201  ls
+  202  cd pure-ftpd/
+  203  ls
+  204  cd conf/
+  205  ls
+  206  sudo vim TLSCipherSuite 
+  207  aptitude install openssl
+  208  sudo apt install openssl
+  209  echo 2 > /etc/pure-ftpd/conf/TLS
+  210  touch > /etc/pure-ftpd/conf/TLS
+  211  touch /etc/pure-ftpd/conf/TLS
+  212  sudo su
+  213  sudo pure-pw useradd n1 -u ftpuser -g ftpgroup -d /home/ftp
+  214  mkdir -p /home/ftp
+  215  sudo mkdir -p /home/ftp
+  216  sudo pure-pw useradd n1 -u ftpuser -g ftpgroup -d /home/ftp
+  217  sudo su
+  218  df
+  219  fdisk
+  220  fdisk -l
+  221  sudo fdisk -l 
+  222  fdisk -l
+  223  sudo fdisk -l
+  224  clear
+  225  sudo zpool create zroot /dev/sdb
+  226  sudo zpool create zroot /dev/sdb -f
+  227  sudo zpool status
+  228  cd /zroot
+  229  ls
+  230  cd ..
+  231  cd /home/ftp
+  232  ls
+  233  zfs create -o canmount=noauto -o mountpoint=/home/ftp zroot/ftp
+  234  sudo zfs create -o canmount=noauto -o mountpoint=/home/ftp zroot/ftp
+  235  zpool status
+  236  sudo zpool status
+  237  zfs -list
+  238  sudo zfs -list
+  239  sudo zfs -l
+  240  zpool list
+  241  sudo zpool list
+  242  df
+  243  cd /zroot
+  244  ls
+  245  mkdir /ftp
+  246  sudo mkdir /ftp
+  247  sudo zfs create -o canmount=noauto -o mountpoint=/home/ftp zroot/ftp
+  248  df
+  249  cd zoor
+  250  cd zroot
+  251  cd /zroot
+  252  ls
+  253  cd ..
+  254  ls
+  255  cd ftp
+  256  ls
+  257  cd ..
+  258  sudo rm ftp
+  259  sudo rmdir ftp
+  260  ls
+  261  cd /zroot/
+  262  ls
+  263  mkdir ftp
+  264  sudo mkdir ftp
+  265  sudo zfs create -o canmount=noauto -o mountpoint=/home/ftp zroot/ftp
+  266  zfs mount zroot/ftp
+  267  sudo zfs mount zroot/ftp
+  268  df
+  269  cd /zroot
+  270  ls
+  271  cd ftp
+  272  ls
+  273  cd ..
+  274  ls
+  275  vim ~/.vimrc
+  276  cd ~/Desktop/
+  277  ls
+  278  cd /
+  279  ls
+  280  cd ~/
+  281  ls
+  282  ls -a
+  283  cp .vimrc ~/Desktop
+  284  cd ~/Desktop/
+  285  ls
+  286  ls -a
+  287  mv .vimrc vimrc
+  288  useradd
+  289  useradd sysadm
+  290  sudo useradd sysadm
+  291  passwd sysadm
+  292  sudo passwd sysadm
+  293  pure-ftpd
+  294  sudo pure-ftpd
+  295  ifconfig
+  296  cd ..
+  297  ls
+  298  cd ..
+  299  ls
+  300  mkdir sysadm
+  301  sudo mkdir sysadm
+  302  pureftp useradd sysadm -u ftp /home/sysadm
+  303  pureftpd useradd sysadm -u ftp /home/sysadm
+  304  pure-ftpd useradd sysadm -u ftp /home/sysadm
+  305  cat passwd
+  306  cd /usr/local
+  307  ls
+  308  cd etc
+  309  ls
+  310  cd ..
+  311  ls
+  312  cd ..
+  313  ls
+  314  cd ..ls
+  315  cd /etc/pure-ftpd/conf
+  316  ls
+  317  groupadd ftpgroup
+  318  sudo groupadd ftpgroup
+  319  useradd sysadm -g ftpgroup -d /home/sysadm
+  320  userdel sysadm
+  321  sudo userdel sysadm
+  322  sudo adduser
+  323  sudo adduser sysadm
+  324  userdel sysadm
+  325  sudo userdel sysadm
+  326  useradd sysadm -g ftpgroup -d /home/sysadm
+  327  sudo useradd sysadm -g ftpgroup -d /home/sysadm
+  328  passwd sysadm
+  329  sudo passwd sysadm
+  330  ifconfig
+  331  cd /home
+  332  ls
+  333  cd sysadm/
+  334  ls
+  335  su sysadm
+  336  cd /etc
+  337  cat passwd
+  338  clear
+  339  ls
+  340  cd /etc/pure-ftpd/conf/
+  341  ls
+  342  sudo su
+  343  sudo pure-pw useradd ftp-tri -u ftp -g ftpgroup -d /home/ftp
+  344  history
+  345  history > /home/ftp/his1.txt

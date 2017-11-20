@@ -1,0 +1,130 @@
+    1  echo 2 > /etc/pure-ftpd/conf/TLS
+    2  ls
+    3  mkdir -p /etc/ssl/private/
+    4  openssl req -x509 -nodes -days 7300 -newkey rsa:2048 -keyout /etc/ssl/private/pure-ftpd.pem -out /etc/ssl/private/pure-ftpd.pem
+    5  chmod 600 /etc/ssl/private/pure-ftpd.pem
+    6  /etc/init.d/pure-ftpd-mysql restart
+    7  /etc/init.d/pure-ftpd restart
+    8  exit
+    9  pure-pw useradd n1 -u ftpuser -g ftpgroup -d /home/ftp
+   10  ls
+   11  cd MinUID 
+   12  vim MinUID 
+   13  Alt MinUID 
+   14  vim AltLog 
+   15  ls
+   16  vim PureDB 
+   17  vim PAMAuthentication 
+   18  sudo apt install zfs
+   19  zpool
+   20  fstab
+   21  vim /etc/fatab
+   22  vim /etc/fstab
+   23  zpool status
+   24  zfs status
+   25  ubuntu
+   26  ubuntu -v
+   27  version
+   28  apt install zfsutils
+   29  sudo apt install zfsutils
+   30  zpool status
+   31  fdisk -l
+   32  zpool create zroot /dev/sda1 /dev/sda2
+   33  fdisk -l
+   34  zpool create zroot /dev/sda1 /dev/sda5
+   35  zpool create zroot -f /dev/sda1 /dev/sda2
+   36  zpool create zroot -f /dev/sda1 
+   37  zpool create zroot
+   38  zpool create zroot -f /dev/sda1 
+   39  df
+   40  zpool create zroot /dev/sda1 -f
+   41  zpool create zroot tmpfs -f
+   42  zpool create udev tmpfs -f
+   43  zpool create zroot udev  -f
+   44  zfs create zroot/home
+   45  zpool create zroot /dev/sda2
+   46  zpool create zroot /dev/sda2 -f
+   47  zpool create zroot /dev/sda2 /dev/sda5 -f
+   48  zpool create zroot /dev/sda1 /dev/sda2 -f
+   49  zfs upgrade -v
+   50  zfs upgrade
+   51  vim NoAnonymous 
+   52  pure-ftpd restart
+   53  service pure-ftpd restart
+   54  pure-ftpd restart
+   55  /etc/init.d/pure-ftpd restart
+   56  userdel sysadm
+   57  vim NoAnonymous 
+   58  useradd ftp -g ftpgroup -s /bin/false -d /home/ftp
+   59  /etc/init.d/pure-ftpd restart
+   60  cd /home/ftp
+   61  touch ita22.cpp
+   62  pure-pw useradd ftp-vip -u ftpuser -d /home/ftp -m
+   63  cd /etc/pure-ftpd/conf/
+   64  ls
+   65  vim PureDB 
+   66  chown -R ftpuser:ftpgroup ftproot/
+   67  pure-pw useradd ftp-vip -u ftp -d /home/ftp -m
+   68  /etc/init.d/pure-ftpd restart
+   69  chown -R ftp:ftpgroup /home/ftp
+   70  /etc/init.d/pure-ftpd restart
+   71  pure-pw useradd ftp-vip -u ftp -d /home/ftp -m
+   72  /etc/init.d/pure-ftpd restart
+   73  vim /etc/pure-ftpd/pureftpd.passwd.tmp
+   74  pure-pw userdel ftp-vip
+   75  pure-pw useradd ftp-vip -u ftp -d /home/ftp -m
+   76  vim /etc/pure-ftpd/pureftpd.passwd.tmp
+   77  cd ..
+   78  ls
+   79  vim pureftpd.passwd
+   80  /etc/init.d/pure-ftpd restart
+   81  vim pureftpd.passwd
+   82  pure-pw userdel ftp-vip
+   83  vim pureftpd.passwd
+   84  ls
+   85  vim pureftpd.pdb 
+   86  chmod 700 pureftpd.passwd.tmp 
+   87  pure-pw userdel ftp-vip
+   88  pure-pw useradd ftp-vip -u ftp -d /home/ftp -m
+   89  vim pureftpd.passwd
+   90  pure-pw useradd ftp-vip -u ftp -d /home/ftp -m
+   91  vim pureftpd.passwd
+   92  vim pureftpd.pdb 
+   93  pure-pw userdel ftp-vip
+   94  mkdb
+   95  pure-pw mkdb
+   96  vim pureftpd.passwd
+   97  pure-pw useradd ftp-vip -u ftp -d /home/ftp -m
+   98  ln -s /etc/pure-ftpd/conf/PureDB /etc/pure-ftpd/auth/60puredb
+   99  pure-pw useradd ftp-vip -u ftp -d /home/ftp -m
+  100  sudo apt-get remove pure-ftpd
+  101  sudo apt-get install pure-ftpd
+  102  sudo apt-get install openssl
+  103  cd /conf
+  104  cd conf
+  105  ls
+  106  vim TLS
+  107  pure-pw mkdb
+  108  ln -s /etc/pure-ftpd/conf/PureDB /etc/pure-ftpd/auth/60puredb
+  109  pure-pw useradd ftp-vip -u ftp -d /home/ftp -m
+  110  history
+  111  pure-pw useradd ftp-vip -u ftpuser -d /home/ftp -m
+  112  pure-pw useradd ftp-tri -u ftpuser -d /home/ftp -m
+  113  pure-pw useradd ftp-tri -u ftp -d /home/ftp -m
+  114  pure-pw mkdb
+  115  ln -s /etc/pure-ftpd/conf/PureDB /etc/pure-ftpd/auth/60puredb
+  116  pure-pw useradd ftp-tri -u ftpuser -g ftpgroup -d /home/ftp -m
+  117  pure-pw useradd ftp-tri -u ftp -g ftpgroup -d /home/ftp -m
+  118  vim /etc/pure-ftpd/pureftpd.passwd
+  119  vim /etc/pure-ftpd/pureftpd.passwd.tmp
+  120  chmod 777 /home/ftp
+  121  pure-pw useradd ftp-tri -u ftp -g ftpgroup -d /home/ftp -m
+  122  chmod 777 /etc/pure-ftpd/pureftpd.passwd.tmp 
+  123  pure-pw useradd ftp-tri -u ftp -g ftpgroup -d /home/ftp -m
+  124  chmon -R ftpuser:ftpgroup ftproot/
+  125  chown -R ftpuser:ftpgroup ftproot/
+  126  chown -R ftp:ftpgroup ftproot/
+  127  chown -R ftp:ftpgroup /home/ftp
+  128  pure-pw useradd ftp-tri -u ftp -g ftpgroup -d /home/ftp -m
+  129  exit
+  130  history > /home/ftp/his2.txt
