@@ -1,159 +1,8 @@
-    1  ls
-    2  cd Desktop
-    3  touch hw7_1.c
-    4  touch hw7_2.c
-    5  vim hw7_2.c
-    6  date 1711131248
-    7  date 171113
-    8  exit
     9  sudo apt-get install samba
    10  sudo apt-get install vim
-   11  cd /etc/samba
-   12  ls
-   13  samba -v
    14  samba -V
    15  sudo apt-get install zfs
    16  vim /etc/samba/smb.conf
-   17  cd /Desktop
-   18  cd /usr/alter027/Desktop
-   19  cd /
-   20  ls
-   21  cd usr
-   22  ls
-   23  cd ..
-   24  cd /home
-   25  ls
-   26  cd alter027/Desktop
-   27  vim hw7_2.c
-   28  cd
-   29  ls
-   30  touch .vimrc
-   31  ls -l
-   32  ls -a
-   33  vim .vimrc
-   34  vim /Desktop/hw7_2.c
-   35  cd Desktop/
-   36  ls
-   37  vim hw7_2.c
-   38  vim /.vimrc
-   39  vim ~/.vimrc
-   40  vim hw7_2.c
-   41  vim ~/.vimrc
-   42  vim hw7_2.c
-   43  vim ~/.vimrc
-   44  vim hw7_2.c
-   45  vim ~/.vimrc
-   46  vim hw7_2.c
-   47  vim ~/.vimrc
-   48  vim hw7_2.c
-   49  vim ~/.vimrc
-   50  vim hw7_2.c
-   51  vim ~/.vimrc
-   52  vim hw7_2.c
-   53  vim ~/.vimrc
-   54  vim hw7_2.c
-   55  mv hw7_2.c hw7_2.cpp
-   56  ls
-   57  g++ hw7_2.cpp
-   58  vim hw7_2.cpp 
-   59  sudo apt-get install g++
-   60  sudo apt-get install gcc
-   61  vim hw7_2.cpp 
-   62  g++ hw7_2.cpp
-   63  vim hw7_2.cpp 
-   64  g++ hw7_2.cpp
-   65  vim hw7_2.cpp 
-   66  g++ hw7_2.cpp
-   67  vim hw7_2.cpp 
-   68  g++ hw7_2.cpp
-   69  vim hw7_2.cpp 
-   70  g++ hw7_2.cpp
-   71  vim hw7_2.cpp 
-   72  g++ hw7_2.cpp
-   73  vim hw7_2.cpp 
-   74  g++ hw7_2.cpp
-   75  ./a.out
-   76  vim hw7_2.cpp 
-   77  g++ hw7_2.cpp
-   78  touch hw7.txt
-   79  vim hw7.txt
-   80  touch hw712.txt
-   81  vim hw712.txt
-   82  ./a.out < hw7.txt
-   83  vim hw712.txt
-   84  vim hw7_2.cpp 
-   85  g++ hw7_2.cpp 
-   86  ./a.out < hw7.txt
-   87  vim hw7_2.cpp 
-   88  g++ hw7_2.cpp 
-   89  ./a.out < hw7.txt
-   90  vim hw7_2.cpp 
-   91  g++ hw7_2.cpp 
-   92  vim hw7_2.cpp 
-   93  ./a.out < hw7.txt
-   94  vim hw7_2.cpp 
-   95  g++ hw7_2.cpp 
-   96  ./a.out < hw7.txt
-   97  vim hw7_2.cpp 
-   98  g++ hw7_2.cpp 
-   99  vim hw7_2.cpp 
-  100  g++ hw7_2.cpp 
-  101  ./a.out < hw7.txt
-  102  vim hw7_2.cpp 
-  103  g++ hw7_2.cpp 
-  104  ./a.out < hw7.txt
-  105  vim hw7_2.cpp 
-  106  g++ hw7_2.cpp 
-  107  ./a.out < hw7.txt
-  108  vim hw7_2.cpp 
-  109  g++ hw7_2.cpp 
-  110  vim hw7_2.cpp 
-  111  g++ hw7_2.cpp 
-  112  ./a.out < hw7.txt
-  113  mv hw7_1.c hw7_1.cpp
-  114  vim hw7_1.cpp 
-  115  vim ~/.vim.rc
-  116  history
-  117  vim ~/.vimrc
-  118  vim hw7_1.cpp 
-  119  vim ~/.vimrc
-  120  vim hw7_1.cpp 
-  121  vim ~/.vimrc
-  122  vim hw7_1.cpp 
-  123  g++ hw7_1.cpp 
-  124  vim hw7_1.cpp 
-  125  g++ hw7_1.cpp 
-  126  touch hw71.txt
-  127  vim hw71.txt
-  128  vim hw712.txt
-  129  ./a.out < hw71.txt
-  130  vim hw7_1.cpp 
-  131  g++ hw7_1.cpp 
-  132  ./a.out < hw71.txt
-  133  vim hw7_1.cpp 
-  134  g++ hw7_1.cpp 
-  135  ./a.out < hw71.txt
-  136  vim hw7_1.cpp 
-  137  g++ hw7_1.cpp 
-  138  ./a.out < hw71.txt
-  139  ./a.out < hw712.txt
-  140  touch hw713.txt
-  141  vim hw713.txt
-  142  ./a.out < hw713.txt
-  143  vim hw713.txt
-  144  vim hw7_1.cpp 
-  145  vim hw714.txt
-  146  ./a.out < hw714.txt
-  147  vim hw714.txt
-  148  vim hw7_1.cpp 
-  149  g++ hw7_1.cpp 
-  150  ./a.out < hw714.txt
-  151  vim hw7_1.cpp 
-  152  vim hw7_2.cpp 
-  153  cd /
-  154  ls
-  155  cd /etc
-  156  ls
   157  cd samba/
   158  ls
   159  vim smb.conf 
@@ -163,31 +12,14 @@
   163  sudo smbpasswd -a smbuser
   164  vim smb.conf 
   165  su -
-  166  vim smb.conf 
-  167  chown 777 smb.conf
-  168  chowd 777 smb.conf
-  169  sudo vim smb.conf
-  170  cd /home/smbuser
-  171  ls
   172  sudo service smbd restart
   173  sudo service smbd start
-  174  ifconfig
-  175  ping www.google.com
-  176  ping www.google.com.tw
-  177  curl google.com.tw
-  178  sudo apt install curl
-  179  curl google.com.tw
-  180  ping www.google.com.tw
   181  ifconfig
   182  sudo apt-get install pure-ftpd
   183  cd /etc/pure-ftpd/conf
-  184  ls
   185  sudo /etc/init.d/pure-ftpd restart
   186  ifconfig
   187  cd /etc/pure-ftpd/conf
-  188  ls
-  189  vim NoAnonymous 
-  190  ls
   191  cd /etc/pure-ftpc/conf
   192  cd /etc/pure-ftpd/conf
   193  ls
