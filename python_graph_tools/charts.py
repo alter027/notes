@@ -16,7 +16,6 @@ def others(plt,title,filename,figsize=(8,6),dpi=70):
         plt.title(title)
     if filename:
         plt.savefig(filename)
-
 def bar(keys,values,title='',filename='',figsize=None, dpi=None):
     test_key_val(keys,values)
 
