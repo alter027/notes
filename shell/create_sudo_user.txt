@@ -1,0 +1,5 @@
+# how to create a new sudo user
+$ sudo adduser [username]
+# fill in the new user's information
+$ usermod -aG sudo [username]
+# the new user now can run with superuser privileges
